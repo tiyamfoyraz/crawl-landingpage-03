@@ -1,0 +1,363 @@
+
+/*    ipad,mobile and mac image smaller  */
+.img-responsive{
+    padding: 40px;
+}
+    
+
+/*    ipad,mobile and mac image smaller end */
+
+
+/* header section style */
+
+
+        .logo{
+           font-weight: bold;   
+        }
+        .header{
+          width: 100%;
+          background: url("intro-bg.jpg") no-repeat center;
+          background-size: cover;
+          height: 90vh;
+        }
+        
+        .header-body{
+            width: 100%;
+            position: relative;
+            height: 90vh;
+        }
+        
+        .header-content{
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        
+        .header-content h1{
+            margin: 0;
+            font-weight: bold;
+            font-size: 55px;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+            padding: 3px 0;
+        }
+        
+        .header-content h4{
+            margin: 0;
+            font-size: 24px;
+            padding: 6px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+            border-bottom: 2px solid white;
+        }
+        
+        .btn-custom-lg{
+            color: #fff;
+            background: #715c4b;
+            border-color: #715c4b;
+            font-size: 14px;
+            padding: 13px 18px;
+            margin-left: 3px;
+            transition: background .2s;
+        }
+        
+        .btn-custom-lg:hover{
+            color: white;
+            border-color: #5f4a37;
+            background: #5f4a37; 
+        }
+
+        a{
+            color: #9c7b5cd9;
+        }
+
+
+
+        .navbar-default {
+            background-color: #715c4b;
+            border-color: #715c4b;
+        }
+
+        .navbar-default .navbar-nav>li>a {
+            color: #fff;
+        }
+
+        .navbar-default .navbar-brand {
+            color: #fff;
+        }
+        
+/* mobile devices button style */
+        
+        .btn-custom-xs{
+            color: #fff;
+            background: #868e96;
+            border-color: #868e96;
+            font-size: 8px;
+            padding: 2px 4px;
+            transition: background .2s;
+        }
+        
+        .btn-custom-xs:hover{
+            color: white;
+            border-color: #695646;
+            background: #695646; 
+        }
+
+/* mobile devices button style end */ 
+        
+/* header section style end */
+        
+        
+        
+/*  ipad section style  */
+        .ipad-section{
+            background: #f8f8f8;
+            padding: 40px 0;
+        }
+        
+        .ipad-body{
+            margin-top: 60px;
+        }
+        
+        .ipad-body h1{
+            font-weight: bold;
+        }
+        
+        .ipad-body h4{
+            margin-top: 17px;
+            line-height: 27px;
+        } 
+        
+        .spacer {
+            width: 200px;
+            float: left;
+            border-top: 3px solid #e7e7e7;
+            margin-top: 36px;
+        }     
+        
+/*  ipad section style end */
+        
+        
+/*  mac section style  */
+        .mac-section{
+            margin: 40px 0;
+        }
+        
+        .mac-body{
+            margin-top: 60px;
+        }
+        
+        .mac-body h1{
+            font-weight: bold;
+        }
+        
+        .mac-body h4{
+            margin-top: 17px;
+            line-height: 27px;
+        } 
+        
+        .spacer {
+            width: 200px;
+            float: left;
+            border-top: 3px solid #e7e7e7;
+        }     
+        
+/*  mac section style end */
+        
+        
+/*  iphone section style  */
+        .iphone-section{
+            background: #f8f8f8;
+            padding: 40px 0;
+        }
+        
+        .iphone-body{
+            margin-top: 60px;
+        }
+        
+        .iphone-body h1{
+            font-weight: bold;
+        }
+        
+        .iphone-body h4{
+            margin-top: 17px;
+            line-height: 27px;
+        } 
+        
+        .spacer {
+            width: 200px;
+            float: left;
+            border-top: 3px solid #e7e7e7;
+        }     
+        
+/*  iphone section style end */
+        
+        
+        
+ /*  connect section style  */
+        .connect-section{
+            background: url("banner-bg.jpg") no-repeat center;
+            background-size: cover;
+            padding: 40px 0;
+        }
+        
+        .connect-body{
+            margin-top: 50px;
+        }
+        
+        .connect-button{
+            margin-top: 42px;
+        }
+        .connect-body h1{
+            font-weight: bold;
+            color: white;
+            font-size: 32px;
+            margin-top: -9px;
+        }     
+        
+        .btn-custom-lg-2{
+            color: #fff;
+            background: #715c4b;
+            border-color: #715c4b;
+            font-size: 11px;
+            padding: 13px 12px;
+            margin-left: 3px;
+            transition: background .2s;
+        }
+        
+        .btn-custom-lg-2:hover{
+            color: white;
+            border-color: #5f4a37;
+            background: #5f4a37; 
+        }
+/*  connection section style end */
+       
+
+/*  footer section  */
+        .footer{
+           background-color: #715c4b;
+           padding: 50px 0;
+        }
+
+        .footer p{
+           font-size: 90%;
+           margin-top: 12px;
+           margin-left: 4px;
+           color: #3a2f26;
+        }
+
+    .footer-navbar ul li a{
+        font-weight: bold;
+        font-size: 15px;
+        color: #caa688;
+        padding: 5px;
+    }
+
+        .footer_credits{
+            width: 100%;
+            background: #000;
+            height: auto;
+            text-align: center;
+            margin-top: 10%;
+            margin: 0;
+            padding: 1.5% 0 1% 0;
+        }
+
+        .footer_credits p{
+            font-family: monospace;
+            font-size: 20px;
+            color: aliceblue;
+        }
+
+        .footer_credits i{
+            color: #801f1f;
+        }
+      
+        .footer_credits span{
+            color: #a0846d;
+        }
+
+
+
+/*  footer section end  */
+        
+        
+/*-------------------------------------------------MEDIA QUERIES-------------------------------------------*/
+        
+        @media only screen and (max-width: 480px){
+            
+/* header section */
+        .header-content h1{
+            font-size: 27px;
+             }
+        
+        .header-content h4{
+            font-size: 13px;
+            }
+            
+        .btn-custom-xs{
+            background: white;
+            border: 1px solid white;
+            color: black;
+            
+            }
+            
+            
+/* ipad section */
+            .ipad-body{
+                text-align: center;
+            }
+            
+            .spacer{
+                display: block;
+                width: 100%;
+            }
+               
+            
+/* mac section */
+            .mac-body{
+                text-align: center;
+            } 
+        
+/* iphone section */
+            .iphone-body{
+                text-align: center;
+            }
+
+/* connect section */
+            
+            .connect-section h1{
+                text-align: center;
+                font-size: 26px;
+            }
+            
+            .connect-body{
+                margin-top: -10px;
+            }
+            .connect-content{
+                text-align: center;
+            }
+            
+            .btn-custom-xs-2{
+                background: white;
+                border: 1px solid white;
+                color: black;
+                transition: background .2s;
+            
+            }
+            
+            .btn-custom-xs-2:hover{
+                color: white;
+                border-color: #695646;
+                background: #695646;
+        }
+            
+            
+/*  footer section  */
+        .footer{
+           text-align: center;
+        }
+            
+} 
